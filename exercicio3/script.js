@@ -4,14 +4,11 @@ const boasVindas = "\"BOAS VINDAS, mas não deixe o gato sair\""
 
 const boasVindasToUpperCase = boasVindas.toUpperCase()
 
-const descricaoAlt1 = descricao.replace("verde","rosa")
-
-const descricaoAlt = descricaoAlt1.replace("azul","laranja")
+const descricaoAlt = descricao.replace("verde","rosa").replace("azul","laranja")
 
 console.log(descricaoAlt, boasVindasToUpperCase)
 
 console.log(descricaoAlt.includes("verde"))
-
 console.log(descricaoAlt.includes("laranja"))
 
 
